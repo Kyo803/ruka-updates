@@ -1,7 +1,7 @@
 ﻿{
-    "notes":  "Ruka 0.1.7: one-click installer, self-update repair, download progress/pause/cancel and AppData storage.",
-    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.7/Ruka-Setup-0.1.7.exe",
-    "publishedAt":  "2026-11-07T12:24:39.5079183Z",
-    "version":  "0.1.7",
-    "sha256":  "DBD9CFD5B0D740F63AA4EB69B19BB7BD14E8961378D3374222C7CB8E6865A816"
+    "notes":  "Tor status is always visible, Tor off/on is explicit, onion links added and Tor tab proxy handoff fixed.",
+    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.8/Ruka-Setup-0.1.8.exe",
+    "publishedAt":  "2026-11-07T13:43:22.0195868Z",
+    "version":  "0.1.8",
+    "sha256":  "CF460AE785ECF6E6A8573728CE885334C2B76CDA0C84B505DB41604409AF2F8C"
 }
