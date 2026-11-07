@@ -1,7 +1,7 @@
 ﻿{
-    "notes":  "CastLabs ECS/Widevine runtime, worldwide update fallback, title-bar update control, animated permission prompt and tab groups.",
-    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.5/Ruka-Setup-0.1.5.exe",
-    "publishedAt":  "2026-11-07T11:16:02.3476909Z",
-    "version":  "0.1.5",
-    "sha256":  "C37196866E2F28E0F26E6934E00B54EBE45B18D4D04548C6C77E47DCE7ACFE27"
+    "notes":  "Data and workspace now live in AppData with one-time migration; CastLabs ECS and worldwide updates included.",
+    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.6/Ruka-Setup-0.1.6.exe",
+    "publishedAt":  "2026-11-07T11:44:12.7022873Z",
+    "version":  "0.1.6",
+    "sha256":  "BD7EB9FA59791D07C64602FBB10BB0D414F78C846FF84522464150D1EC32F431"
 }
