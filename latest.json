@@ -1,7 +1,7 @@
 ﻿{
-    "notes":  "Space presets, user-created categories and an isolated Tor space with onion shortcuts.",
-    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.9/Ruka-Setup-0.1.9.exe",
-    "publishedAt":  "2026-11-07T13:56:23.3926296Z",
-    "version":  "0.1.9",
-    "sha256":  "5CF91BC54312621F7E13D591BEAC18D3E57CAE21B2B7D40FB97D0193730610ED"
+    "notes":  "All space categories are visible; more presets and an isolated Tor category.",
+    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.2.0/Ruka-Setup-0.2.0.exe",
+    "publishedAt":  "2026-11-07T14:06:30.9140690Z",
+    "version":  "0.2.0",
+    "sha256":  "151228BEAA4862B7340E2089FCACB8C686565E58AC55BCCF645CAE9B4C9B9D50"
 }
