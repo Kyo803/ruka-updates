@@ -1,7 +1,7 @@
 ﻿{
-    "notes":  "Data and workspace now live in AppData with one-time migration; CastLabs ECS and worldwide updates included.",
-    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.6/Ruka-Setup-0.1.6.exe",
-    "publishedAt":  "2026-11-07T11:44:12.7022873Z",
-    "version":  "0.1.6",
-    "sha256":  "BD7EB9FA59791D07C64602FBB10BB0D414F78C846FF84522464150D1EC32F431"
+    "notes":  "Ruka 0.1.7: one-click installer, self-update repair, download progress/pause/cancel and AppData storage.",
+    "url":  "https://github.com/Kyo803/ruka-updates/releases/download/v0.1.7/Ruka-Setup-0.1.7.exe",
+    "publishedAt":  "2026-11-07T12:24:39.5079183Z",
+    "version":  "0.1.7",
+    "sha256":  "DBD9CFD5B0D740F63AA4EB69B19BB7BD14E8961378D3374222C7CB8E6865A816"
 }
