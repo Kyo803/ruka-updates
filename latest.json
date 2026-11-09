@@ -1,6 +1,6 @@
 {
-  "version": "0.3.22",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.22/Ruka-Setup-0.3.22.exe",
-  "sha256": "500610F4563F88690ACE8908C5831BFE4F0B9E4C4B3CEF8A9D97F187C4CF0E33",
-  "notes": "Ruka 0.3.22: Dia-inspired morning brief, mono primary theme and refreshed download site."
+  "version": "0.3.23",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.23/Ruka-Setup-0.3.23.exe",
+  "sha256": "4B90B06F98D2C768108D27C001361B7950BDD3CFA42985F53CB71D0496F38FE8",
+  "notes": "Ruka 0.3.23: Helium, Nebula and Abyss themes plus selectable logo variants."
 }
