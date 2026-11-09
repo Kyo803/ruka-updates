@@ -1,6 +1,6 @@
 {
-  "version": "0.3.18",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.18/Ruka-0.3.18.AppImage",
-  "sha256": "CDF3BEACB7215FCEB59A40B66193E78BAED544BDB781A943DE7C9F9E9196D213",
-  "notes": "Ruka 0.3.18 for Linux x64: reliable security update handoff and hardened local APIs."
+  "version": "0.3.19",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.19/Ruka-0.3.19.AppImage",
+  "sha256": "C42F83DE3815B8A0FB56B7626FED7354F506C3A8B6C56326761C238DA1391F0A",
+  "notes": "Ruka 0.3.19 for Linux x64: new Ruka Vault logo."
 }
