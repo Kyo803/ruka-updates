@@ -1,6 +1,6 @@
 {
-  "version": "0.4.19",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.19/Ruka-CEF-Setup-0.4.19.exe",
-  "sha256": "F9496FD3952E6568ED82AF5109CDEE27D8DA1BA4BE6094E8CF0FD37FCB0A155F",
-  "notes": "Ruka CEF 0.4.19: new Ruka Vault logo across the vault, app dock and command palette."
+  "version": "0.4.21",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.21/Ruka-CEF-Setup-0.4.21.exe",
+  "sha256": "BE112E57A902215DA6394F993CB045CFEE52EA10CB42FAAE986007AA09094A2C",
+  "notes": "Ruka CEF 0.4.21: Chat Lab test surface, flat music player and Ruka Home VPN profile."
 }
