@@ -1,6 +1,6 @@
 {
-  "version": "0.3.12",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.12/Ruka-Setup-0.3.12.exe",
-  "sha256": "BD0045BD2D2BA8D8B1C154DCB006BAC30F75C36A85E5BF9EEA6CF16788F3F231",
-  "notes": "Ruka 0.3.12: PostgreSQL chat backend, durable sessions, WebSocket message events, idempotent sends, automatic retry for 502/503/504, friends, servers, profiles, media and shared music."
+  "version": "0.3.13",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.13/Ruka-Setup-0.3.13.exe",
+  "sha256": "5C5DDA88C159F0D5426679F0FF5D1DAB6CD28E7FDA9F522F113AE06026F7F85C",
+  "notes": "Ruka 0.3.13: accent-colored action buttons restored, including Open VS Code, Studio, settings actions and VS Code setup."
 }
