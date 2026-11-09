@@ -1,6 +1,6 @@
 {
-  "version": "0.3.18",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.18/Ruka-Setup-0.3.18.exe",
-  "sha256": "88D91372388744B5DCEBF88DBCEC88DE334A3E3645372050CACDB72BFFA97F83",
-  "notes": "Ruka 0.3.18: reliable Windows update handoff outside the Electron job object."
+  "version": "0.3.19",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.19/Ruka-Setup-0.3.19.exe",
+  "sha256": "7F889949C0A469747A7F90BB46393987CEEE2619F18DA302D968F04FD448E43D",
+  "notes": "Ruka 0.3.19: new Ruka Vault logo across the vault, app dock and command palette."
 }
