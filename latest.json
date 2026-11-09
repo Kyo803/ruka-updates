@@ -1,6 +1,6 @@
 {
-  "version": "0.3.17",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.17/Ruka-Setup-0.3.17.exe",
-  "sha256": "9351B6175CC5CE2EEA3AD2367BA40B1F45273078CF96C2C1C7E7E6CEB93DBD9E",
-  "notes": "Ruka 0.3.17 security release: sandboxed renderer, strict CSP, hardened local APIs and network headers."
+  "version": "0.3.18",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.18/Ruka-Setup-0.3.18.exe",
+  "sha256": "88D91372388744B5DCEBF88DBCEC88DE334A3E3645372050CACDB72BFFA97F83",
+  "notes": "Ruka 0.3.18: reliable Windows update handoff outside the Electron job object."
 }
