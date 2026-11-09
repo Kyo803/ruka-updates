@@ -1,6 +1,6 @@
 {
-  "version": "0.4.16",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.16/Ruka-CEF-Setup-0.4.16.exe",
-  "sha256": "BB4CC813AE603C4DCDFE537BDA8D14DC87CF90E790C55F771EA1E716DDC74C8B",
-  "notes": "Ruka CEF 0.4.16: pull one selected Chrome profile, with an option to switch lenses after pulling."
+  "version": "0.4.17",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.17/Ruka-CEF-Setup-0.4.17.exe",
+  "sha256": "59A76BA27DA7D5EF733B4903181E14BBC086538B3F1F44AC0AE2DB38809455E2",
+  "notes": "Ruka CEF 0.4.17 security release: workspace file sandbox, clickjacking and SSRF protections."
 }
