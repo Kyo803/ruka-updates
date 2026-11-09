@@ -1,6 +1,6 @@
 {
-  "version": "0.3.21",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.21/Ruka-0.3.21.AppImage",
-  "sha256": "5C8EF87091A70A156F3C6D8561BA905387FAFEAC393E958C4C0C10F01B5488A4",
-  "notes": "Ruka 0.3.21 for Linux x64: Chat Lab test surface and flat music player."
+  "version": "0.3.22",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.22/Ruka-0.3.22.AppImage",
+  "sha256": "DA2714B972A6CFCD92716404CAA8D7D82E3239EA85731D36E514E486D43C5321",
+  "notes": "Ruka 0.3.22 for Linux x64: morning brief and mono primary theme."
 }
