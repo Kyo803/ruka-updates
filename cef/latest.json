@@ -1,6 +1,6 @@
 {
-  "version": "0.4.15",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.15/Ruka-CEF-Setup-0.4.15.exe",
-  "sha256": "870F1C06D568CD156A0378B6089D3C0793E12F28B6D5A4BC6A7D0FFA3591922F",
-  "notes": "Ruka CEF 0.4.15: friend requests, contacts-only DMs and relocated chat entry."
+  "version": "0.4.16",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.16/Ruka-CEF-Setup-0.4.16.exe",
+  "sha256": "BB4CC813AE603C4DCDFE537BDA8D14DC87CF90E790C55F771EA1E716DDC74C8B",
+  "notes": "Ruka CEF 0.4.16: pull one selected Chrome profile, with an option to switch lenses after pulling."
 }
