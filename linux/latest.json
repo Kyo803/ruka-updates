@@ -1,6 +1,6 @@
 {
-  "version": "0.3.14",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.14/Ruka-0.3.14.AppImage",
-  "sha256": "05A5644CA94D7E3215D02AD7ACCD882E317ECB415C5479093D42D2427609285E",
-  "notes": "Ruka 0.3.14 for Linux x64: solid chat bubbles, emoji picker and shared stickers. AppImage, Debian package and tarball available."
+  "version": "0.3.15",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.15/Ruka-0.3.15.AppImage",
+  "sha256": "1B61029B12D5603BEF7472B779BF4A065E27C24F3301C71FB2442F7323D26DF5",
+  "notes": "Ruka 0.3.15 for Linux x64: friend requests, contacts-only DMs, relocated chat entry and glass onboarding picker."
 }
