@@ -1,6 +1,6 @@
 {
-  "version": "0.4.18",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.18/Ruka-CEF-Setup-0.4.18.exe",
-  "sha256": "598A47F8EB1667513541EF426F766B9D6A0A8E32AE4EEF71557012BF3300AC90",
-  "notes": "Ruka CEF 0.4.18: reliable update handoff outside the CEF host job object."
+  "version": "0.4.19",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.19/Ruka-CEF-Setup-0.4.19.exe",
+  "sha256": "F9496FD3952E6568ED82AF5109CDEE27D8DA1BA4BE6094E8CF0FD37FCB0A155F",
+  "notes": "Ruka CEF 0.4.19: new Ruka Vault logo across the vault, app dock and command palette."
 }
