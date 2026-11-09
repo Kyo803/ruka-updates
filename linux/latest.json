@@ -1,6 +1,6 @@
 {
-  "version": "0.3.15",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.15/Ruka-0.3.15.AppImage",
-  "sha256": "1B61029B12D5603BEF7472B779BF4A065E27C24F3301C71FB2442F7323D26DF5",
-  "notes": "Ruka 0.3.15 for Linux x64: friend requests, contacts-only DMs, relocated chat entry and glass onboarding picker."
+  "version": "0.3.16",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.16/Ruka-0.3.16.AppImage",
+  "sha256": "70CCC9EC22F8753B6826DED76DFE861934D28A3AF6772EDADF9F54A54FD4D14A",
+  "notes": "Ruka 0.3.16 for Linux x64: pull one selected Chrome profile, with an optional lens switch after pulling."
 }
