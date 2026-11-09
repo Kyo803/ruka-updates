@@ -1,6 +1,6 @@
 {
-  "version": "0.3.14",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.14/Ruka-Setup-0.3.14.exe",
-  "sha256": "D9133FEA97047826A847919DC7AC8FBFC73787027E99388684DC32CD7B1DD19B",
-  "notes": "Ruka 0.3.14: solid high-contrast chat bubbles, emoji picker, custom shared stickers, and the redesigned Ruka download site."
+  "version": "0.3.15",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.15/Ruka-Setup-0.3.15.exe",
+  "sha256": "B6193BF8C21389C93AA1572C99412BA98D6406664935AD681301417D0E094A8B",
+  "notes": "Ruka 0.3.15: friend requests, contacts-only DMs, relocated chat entry, and glass WSL distro picker."
 }
