@@ -1,6 +1,6 @@
 {
-  "version": "0.3.13",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.13/Ruka-0.3.13.AppImage",
-  "sha256": "D057788478AC9E55CA4F84BC86AAE9FB9314C980DD99A3D07CCC326D93428369",
-  "notes": "Ruka 0.3.13 for Linux x64 (AppImage). Portable build with the local agent, chat, music and update checks."
+  "version": "0.3.14",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.14/Ruka-0.3.14.AppImage",
+  "sha256": "05A5644CA94D7E3215D02AD7ACCD882E317ECB415C5479093D42D2427609285E",
+  "notes": "Ruka 0.3.14 for Linux x64: solid chat bubbles, emoji picker and shared stickers. AppImage, Debian package and tarball available."
 }
