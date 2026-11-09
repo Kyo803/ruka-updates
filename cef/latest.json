@@ -1,6 +1,6 @@
 {
-  "version": "0.4.13",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.13/Ruka-CEF-Setup-0.4.13.exe",
-  "sha256": "50CB2B51F67613A12E75773B75F5370E7B966B0D1C4C016FB25EF9A05A144DF2",
-  "notes": "Ruka CEF 0.4.13: accent-colored action buttons restored, including Open VS Code, Studio, settings actions and VS Code setup."
+  "version": "0.4.14",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.14/Ruka-CEF-Setup-0.4.14.exe",
+  "sha256": "70D316F23AF0B2763A42EBFDA802F80F559D3D13C69E3E349C886722FBA5BA0F",
+  "notes": "Ruka CEF 0.4.14: solid chat bubbles, emoji picker and custom shared stickers."
 }
