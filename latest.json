@@ -1,8 +1,8 @@
 {
-  "version": "0.4.0",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.0/Ruka-Setup-0.4.0.exe",
-  "sha256": "4B2274C11112EE59CA87B376E4EE35036D904409123E0CBFB06064913005B5E6",
-  "notes": "Ruka 0.4.0: critic executable checks and per-phase budgets. critique_asset now runs typecheck, lint and test scripts, optionally mutates a changed source file and reports whether tests killed the mutation, then restores the file. Runs now have per-phase minute, token and step caps with phase-specific stop messages. Verified executable checks 9/9 with a killed mutation, critic through the installed app, and a per-phase stop after one step. Includes 0.3.99 replay/eval gate and 0.3.98 tree-sitter merge.",
+  "version": "0.4.1",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.1/Ruka-Setup-0.4.1.exe",
+  "sha256": "12CEA8B4BA5B93D9B07D3E89A7916F81B15176AC07BE707316DD1C591DEA0CFA",
+  "notes": "Ruka 0.4.1: 50-task eval suite and recorded real-model baseline. Expands the sandbox suite from 30 to 50 tasks across bug fixes, features, refactors, failing tests, flaky tests, search and security. Deterministic baseline is 50/50. Recorded qwen2.5:3b model baseline: 6/10 (60%), 109,309 prompt + 7,192 completion tokens, 648s, four bad edits. Adds docs/EVAL-BASELINE.md. Includes 0.4.0 critic executable checks and per-phase budgets.",
   "rollout": {
     "percent": 100,
     "paused": false
