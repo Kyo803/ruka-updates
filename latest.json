@@ -1,8 +1,8 @@
 {
-  "version": "0.3.94",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.94/Ruka-Setup-0.3.94.exe",
-  "sha256": "B8D941BC985B89B82CCE47E67DD15868F5526CA64DF65EB9C8D006990A81FCA1",
-  "notes": "Ruka 0.3.94: compaction canaries and honest progress. Adds a 25-fact canary check with per-category retention and recovery scores, a verbatim exact-string appendix in every compacted summary, verified todo gates that block review/test unless the real command ran, and wall-clock/token run budgets with saved progress. Includes 0.3.93 shader, critic, orchestration and safety layers.",
+  "version": "0.3.95",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.95/Ruka-Setup-0.3.95.exe",
+  "sha256": "1FD06ED3569449C6135D0BC9D31EF4ACFBDB2B4AA2E5B7DFB863C7099EB7554F",
+  "notes": "Ruka 0.3.95: Free Claude Code local-proxy provider. Connect Ruka to a separately installed FCC OpenAI-compatible server, test the connection, list its models, and use streaming, tool calls and reasoning through the normal agent. Includes optional DPAPI-encrypted proxy token, localhost-only default with an explicit remote toggle, and clear limits: Ruka does not bundle FCC, grant a token quota, or bypass provider terms. Includes 0.3.94 compaction canaries, verified gates and budgets.",
   "rollout": {
     "percent": 100,
     "paused": false
