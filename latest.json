@@ -1,8 +1,8 @@
 {
-  "version": "0.3.98",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.98/Ruka-Setup-0.3.98.exe",
-  "sha256": "64F6CA6D31200412062BF3A642FCBF76AAD5C86FB85B2DEE65DD5452F8F30BD4",
-  "notes": "Ruka 0.3.98: tree-sitter AST merge and stronger parallel-editor recovery. Adds tree-sitter WASM parsing for TypeScript/JavaScript, Python, C/C++, Go, Rust, Java, Kotlin, Swift, Ruby, PHP, CSS, HTML, JSON, YAML, TOML and Vue, with declaration fallback. Conflict resolution retries twice, patch tasks can retry with the model, and the model benchmark now supports up to six real tasks. The update channel defaults new profiles to the working GitHub Pages mirror while retaining the custom-server and raw fallbacks.",
+  "version": "0.3.99",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.99/Ruka-Setup-0.3.99.exe",
+  "sha256": "0927DDC5A04DF7AFE827C3A3AF28E9D3E56137F30520FD49D860004229A5596E",
+  "notes": "Ruka 0.3.99: replay/eval harness and release gate. Add JSONL model/tool replay with RUKA_REPLAY, a 30-task sandbox eval suite in deterministic or model mode, failure taxonomy, token accounting, and npm run eval:gate. Verified deterministic suite 30/30, replay with the provider stopped, and packaged run_eval_suite 5/5. Includes 0.3.98 tree-sitter AST merge and stronger parallel-editor recovery. Adds docs/LIMITS.md as the durable honest backlog.",
   "rollout": {
     "percent": 100,
     "paused": false
