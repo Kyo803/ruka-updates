@@ -1,8 +1,8 @@
 {
-  "version": "0.3.93",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.93/Ruka-Setup-0.3.93.exe",
-  "sha256": "7C3C5A27E26E3370B38ABAD8838A7F6C71AF8ABB8E168778555D3B3923FD011E",
-  "notes": "Ruka 0.3.93: one coherent Thinking/Working workflow bar, a fixed parent-relative Riso flow, and todo tasks that always have real text. Adds the shader engine (high/medium/low tiers + live WebGL preview), evidence-based critic with a score ledger and plateau detection, parallel-editor orchestration (DAG waves, file leases, git worktrees, test-gated merge queue), workspace checkpoints, secret scanning, prompt-injection guards, a repeatable regression eval gate, Ed25519 manifest signing tools and staged rollout support. Includes 8 new built-in skills.",
+  "version": "0.3.94",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.94/Ruka-Setup-0.3.94.exe",
+  "sha256": "B8D941BC985B89B82CCE47E67DD15868F5526CA64DF65EB9C8D006990A81FCA1",
+  "notes": "Ruka 0.3.94: compaction canaries and honest progress. Adds a 25-fact canary check with per-category retention and recovery scores, a verbatim exact-string appendix in every compacted summary, verified todo gates that block review/test unless the real command ran, and wall-clock/token run budgets with saved progress. Includes 0.3.93 shader, critic, orchestration and safety layers.",
   "rollout": {
     "percent": 100,
     "paused": false
