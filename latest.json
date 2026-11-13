@@ -1,8 +1,8 @@
 {
-  "version": "0.3.95",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.95/Ruka-Setup-0.3.95.exe",
-  "sha256": "1FD06ED3569449C6135D0BC9D31EF4ACFBDB2B4AA2E5B7DFB863C7099EB7554F",
-  "notes": "Ruka 0.3.95: Free Claude Code local-proxy provider. Connect Ruka to a separately installed FCC OpenAI-compatible server, test the connection, list its models, and use streaming, tool calls and reasoning through the normal agent. Includes optional DPAPI-encrypted proxy token, localhost-only default with an explicit remote toggle, and clear limits: Ruka does not bundle FCC, grant a token quota, or bypass provider terms. Includes 0.3.94 compaction canaries, verified gates and budgets.",
+  "version": "0.3.96",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.96/Ruka-Setup-0.3.96.exe",
+  "sha256": "787B321E68E80FF61BF20F93023DFA842677AEE5641DEBD04F6B0B0280EE9DAE",
+  "notes": "Ruka 0.3.96: true parallel editors and benchmark. parallel_edit runs real editor tool loops inside isolated git worktrees, supports 1-3 best-of-N candidates, acceptance-command selection, commits candidate changes, merges winners one at a time through a test-gated integration branch, and rolls back failed merges. parallel_benchmark measures worktree creation, parallel patches, merge success, final tests, conflict detection and serial-vs-parallel time on deterministic tasks. Includes 0.3.95 FCC provider and 0.3.94 compaction canaries/gates/budgets.",
   "rollout": {
     "percent": 100,
     "paused": false
