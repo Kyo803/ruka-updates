@@ -1,8 +1,8 @@
 {
-  "version": "0.3.96",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.96/Ruka-Setup-0.3.96.exe",
-  "sha256": "787B321E68E80FF61BF20F93023DFA842677AEE5641DEBD04F6B0B0280EE9DAE",
-  "notes": "Ruka 0.3.96: true parallel editors and benchmark. parallel_edit runs real editor tool loops inside isolated git worktrees, supports 1-3 best-of-N candidates, acceptance-command selection, commits candidate changes, merges winners one at a time through a test-gated integration branch, and rolls back failed merges. parallel_benchmark measures worktree creation, parallel patches, merge success, final tests, conflict detection and serial-vs-parallel time on deterministic tasks. Includes 0.3.95 FCC provider and 0.3.94 compaction canaries/gates/budgets.",
+  "version": "0.3.97",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.3.97/Ruka-Setup-0.3.97.exe",
+  "sha256": "7FD3E86886AE1075236654B2C1EB341A0491370BB038C3BC890FF29CEB0AFDD8",
+  "notes": "Ruka 0.3.97: parallel-editor hardening. Adds declaration-level structural merging, a model conflict-resolver agent, one automatic editor retry when a merge gate fails, a live per-editor dashboard, and a real-model benchmark mode. The deterministic benchmark still measures orchestration; model mode measures the active model on three real edit tasks. Verified structural merge, resolver fallback, retry after gate failure, progress events and a qwen2.5:3b baseline of 1/3 tasks. Adds a GitHub Pages update mirror so new builds can see the latest manifest when the custom update server is stale.",
   "rollout": {
     "percent": 100,
     "paused": false
