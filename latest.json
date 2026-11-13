@@ -1,8 +1,8 @@
 {
-  "version": "0.4.1",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.1/Ruka-Setup-0.4.1.exe",
-  "sha256": "12CEA8B4BA5B93D9B07D3E89A7916F81B15176AC07BE707316DD1C591DEA0CFA",
-  "notes": "Ruka 0.4.1: 50-task eval suite and recorded real-model baseline. Expands the sandbox suite from 30 to 50 tasks across bug fixes, features, refactors, failing tests, flaky tests, search and security. Deterministic baseline is 50/50. Recorded qwen2.5:3b model baseline: 6/10 (60%), 109,309 prompt + 7,192 completion tokens, 648s, four bad edits. Adds docs/EVAL-BASELINE.md. Includes 0.4.0 critic executable checks and per-phase budgets.",
+  "version": "0.4.2",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.2/Ruka-Setup-0.4.2.exe",
+  "sha256": "13CC3DB84E1DDFB82BFF0E882BC42C6F0453AB17393B591B823F177988A4E98E",
+  "notes": "Ruka 0.4.2: full 50-task real-model baseline and tool-call compatibility. qwen2.5-coder:7b completed all 50 eval tasks at 29/50 (58%), using 618,592 prompt + 16,041 completion tokens in 31.9 minutes. The 70% gate is not met; 21 tasks failed with bad edits. Editor loops now accept both native tool calls and JSON text tool calls, so local models that print {\"name\":...,\"arguments\":{...}} as text still work. Deterministic suite remains 50/50.",
   "rollout": {
     "percent": 100,
     "paused": false
