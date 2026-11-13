@@ -1,8 +1,8 @@
 {
-  "version": "0.4.3",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.3/Ruka-Setup-0.4.3.exe",
-  "sha256": "4EEFC28A728E21704CC88F165F3A068C42963B110DB7C5282B79BC8860FD876F",
-  "notes": "Ruka 0.4.3: 100-task eval suite and enforced CI gate. The deterministic suite passes 100/100 at a 95% threshold. Adds npm run eval:deterministic and .github/workflows/eval.yml, which runs typecheck, the deterministic suite and eval:gate on every push and pull request. Model quality is unchanged: the latest baseline is 29/50 at 58% on qwen2.5-coder:7b, so the model gate is still not met. This release expands coverage and enforces the deterministic gate rather than claiming the model score improved.",
+  "version": "0.4.4",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.4/Ruka-Setup-0.4.4.exe",
+  "sha256": "4CBC89FA6CA54B2D65048A174221D8A426BA23B474D5A94D7EA0C1E3E37CC209",
+  "notes": "Ruka 0.4.4: compaction reliability. Each compaction now builds two summaries over different fact windows and reconciles facts that only the second pass retained. A deterministic quiz checks the final summary for the goal, rules, plan, next action and exact strings, and adds a CONTEXT WARNING if any check fails. Adds a 6-round repeated-compaction drift benchmark and npm run check:memory. Measured: canary retention 100%, quiz 100%, drift 80% after 6 rounds against a 90% target. The 90% target is not met; the 80% safety floor is met.",
   "rollout": {
     "percent": 100,
     "paused": false
