@@ -1,8 +1,8 @@
 {
-  "version": "0.4.4",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.4/Ruka-Setup-0.4.4.exe",
-  "sha256": "4CBC89FA6CA54B2D65048A174221D8A426BA23B474D5A94D7EA0C1E3E37CC209",
-  "notes": "Ruka 0.4.4: compaction reliability. Each compaction now builds two summaries over different fact windows and reconciles facts that only the second pass retained. A deterministic quiz checks the final summary for the goal, rules, plan, next action and exact strings, and adds a CONTEXT WARNING if any check fails. Adds a 6-round repeated-compaction drift benchmark and npm run check:memory. Measured: canary retention 100%, quiz 100%, drift 80% after 6 rounds against a 90% target. The 90% target is not met; the 80% safety floor is met.",
+  "version": "0.4.5",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.5/Ruka-Setup-0.4.5.exe",
+  "sha256": "66408CB34D3260465D8F6DBD2916C37CE7F12A1CABFA7F8D33C051261BBDA370",
+  "notes": "Ruka 0.4.5: explicit permission tiers, network allowlist and command environment scrub. Every tool maps to read, edit, run, network or push, and each tier can be set to allow, ask or deny. Deny wins even with auto-accept. A host allowlist checks tool URLs and network commands. Commands run without credential-like environment variables when the scrubber is enabled. 22/22 policy checks pass; CI run 43550628287 is green. The command runner is still not an OS sandbox.",
   "rollout": {
     "percent": 100,
     "paused": false
