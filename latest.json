@@ -1,10 +1,21 @@
 {
-  "version": "0.4.5",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.5/Ruka-Setup-0.4.5.exe",
-  "sha256": "66408CB34D3260465D8F6DBD2916C37CE7F12A1CABFA7F8D33C051261BBDA370",
-  "notes": "Ruka 0.4.5: explicit permission tiers, network allowlist and command environment scrub. Every tool maps to read, edit, run, network or push, and each tier can be set to allow, ask or deny. Deny wins even with auto-accept. A host allowlist checks tool URLs and network commands. Commands run without credential-like environment variables when the scrubber is enabled. 22/22 policy checks pass; CI run 43550628287 is green. The command runner is still not an OS sandbox.",
+  "version": "0.4.6",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.6/Ruka-Setup-0.4.6.exe",
+  "sha256": "FCBF66843B219D5DF0A4A5FB0F319F9F89888DEC184AF715FD9D59BCA0FBFCA9",
+  "notes": "Ruka 0.4.6: signed updates and rollback. The Ed25519 update key is now pinned, and every release manifest must carry a valid signature. Three unfinished launches set a rollback flag and the app offers the previous release. Settings can download and reinstall the previous version from the signed manifest. A block map is published with the installer; the updater still downloads the full installer. Installer Authenticode signing is still not configured.",
+  "previous": {
+    "version": "0.4.5",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.5/Ruka-Setup-0.4.5.exe",
+    "sha256": "66408CB34D3260465D8F6DBD2916C37CE7F12A1CABFA7F8D33C051261BBDA370"
+  },
+  "delta": {
+    "type": "nsis-blockmap",
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.6/Ruka-Setup-0.4.6.exe.blockmap"
+  },
   "rollout": {
     "percent": 100,
     "paused": false
-  }
+  },
+  "signedAt": 1794629085801,
+  "sig": "DqIkoKeb3ru10eLGNkpDAP/5DJ9Jxy11ryfVuAjogzg4gd0mwCZNJeOJSqejdgPAQUBG6LjrePxCChkhH3GHAg=="
 }
