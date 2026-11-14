@@ -1,21 +1,21 @@
 {
-  "version": "0.4.6",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.6/Ruka-Setup-0.4.6.exe",
-  "sha256": "FCBF66843B219D5DF0A4A5FB0F319F9F89888DEC184AF715FD9D59BCA0FBFCA9",
-  "notes": "Ruka 0.4.6: signed updates and rollback. The Ed25519 update key is now pinned, and every release manifest must carry a valid signature. Three unfinished launches set a rollback flag and the app offers the previous release. Settings can download and reinstall the previous version from the signed manifest. A block map is published with the installer; the updater still downloads the full installer. Installer Authenticode signing is still not configured.",
+  "version": "0.4.7",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.7/Ruka-Setup-0.4.7.exe",
+  "sha256": "01A5BB7F8CBE5706730839EF1308FDAED7A53FAD87E58E66D803BF50616291AB",
+  "notes": "Ruka 0.4.7: signed-update reliability fix. Update checks now bypass cached manifests and log each failed source, so a stale unsigned manifest cannot mask a newer signed one. The Ed25519 key remains pinned and every manifest must verify. Previous-version reinstall, the launch rollback guard and the published block map are unchanged. Installer Authenticode signing is still not configured.",
   "previous": {
-    "version": "0.4.5",
-    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.5/Ruka-Setup-0.4.5.exe",
-    "sha256": "66408CB34D3260465D8F6DBD2916C37CE7F12A1CABFA7F8D33C051261BBDA370"
+    "version": "0.4.6",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.6/Ruka-Setup-0.4.6.exe",
+    "sha256": "FCBF66843B219D5DF0A4A5FB0F319F9F89888DEC184AF715FD9D59BCA0FBFCA9"
   },
   "delta": {
     "type": "nsis-blockmap",
-    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.6/Ruka-Setup-0.4.6.exe.blockmap"
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.7/Ruka-Setup-0.4.7.exe.blockmap"
   },
   "rollout": {
     "percent": 100,
     "paused": false
   },
-  "signedAt": 1794629085801,
-  "sig": "DqIkoKeb3ru10eLGNkpDAP/5DJ9Jxy11ryfVuAjogzg4gd0mwCZNJeOJSqejdgPAQUBG6LjrePxCChkhH3GHAg=="
+  "signedAt": 1794629721374,
+  "sig": "W9OOispwX677RF5R9wZ5cIJtm11UZxDAcCFpE1HO6NjnoLDlFoPwZ021nAn+bChkcR5azfg3MbupJ19zK1trBA=="
 }
