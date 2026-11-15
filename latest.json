@@ -1,21 +1,21 @@
 {
-  "version": "0.4.9",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.9/Ruka-Setup-0.4.9.exe",
-  "sha256": "1576E625CA98C3D5A37DD4BC7E3F7DB92857772D4A80E5EAB873A9E736C96A76",
-  "notes": "Ruka 0.4.9: link preview cards in chat and agent replies. The first HTTP(S) URL in a message opens a card with title, description, site name and image. Metadata is fetched in the main process with a six-second timeout and a 512 KB cap; private, loopback, link-local and .internal/.local hosts are refused. Source HTML is never injected. Previews can be turned off in Settings -> Agent. Images still load from the remote host. 20/20 link checks pass.",
+  "version": "0.4.10",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.10/Ruka-Setup-0.4.10.exe",
+  "sha256": "754745C5795B4B2EFEE88F63A3455058D43B1B045ED185B39F8946913366E06D",
+  "notes": "Ruka 0.4.10: agent and local-model reliability. Editor subagents now run the acceptance command after each batch and stop as soon as it passes, instead of editing a passing test and breaking it. Edits outside the task's file scope are refused. Prompts are trimmed to the model context before every call, empty responses get one retry, text tool calls are parsed from plain JSON, fenced blocks, OpenAI-style payloads and JSON embedded in prose, and Ollama stream errors or missing final chunks now raise instead of returning partial text. An 8-task qwen2.5-coder:7b smoke run improved from 3/8 to 5/8; this is not a full baseline. 14/14 agent checks and 6/6 editor checks pass.",
   "previous": {
-    "version": "0.4.8",
-    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.8/Ruka-Setup-0.4.8.exe",
-    "sha256": "9E752C996A559A6111A235CFA86E21A5ADE9F3B390A79F10C370DAB1DAE58326"
+    "version": "0.4.9",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.9/Ruka-Setup-0.4.9.exe",
+    "sha256": "1576E625CA98C3D5A37DD4BC7E3F7DB92857772D4A80E5EAB873A9E736C96A76"
   },
   "delta": {
     "type": "nsis-blockmap",
-    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.9/Ruka-Setup-0.4.9.exe.blockmap"
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.4.10/Ruka-Setup-0.4.10.exe.blockmap"
   },
   "rollout": {
     "percent": 100,
     "paused": false
   },
-  "signedAt": 1794675375738,
-  "sig": "TaQyNPyG970QFikqTmkFo6cEFGHW88UGYolWq1FxEO6BB7IBYdgPQHoEwufDfZj33/ZpDl5GZvz2/1L01t7TAQ=="
+  "signedAt": 1794754808700,
+  "sig": "ESTTzChUB9vtAMFImOd1n15Sh+9YY/Bdd/5TWMFbpCDCg5x5L2fj8qfWOmxOHEWP3BYFkjdcDB6Dz83Md3XVBw=="
 }
