@@ -1,21 +1,21 @@
 {
-  "version": "0.5.3",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.3/Ruka-Setup-0.5.3.exe",
-  "sha256": "CE0EB8C099CBA58FBE6591EBD0313A6E00571ADBAAF34B628821F5DE95EE04F9",
-  "notes": "Ruka 0.5.3: conductor, durable handoff and memory reliability. conductor_run plans dependency waves, runs editors in isolated worktrees, merges through a test gate and writes HANDOFF.md with done/files/next/warnings plus a goal restatement. Memory now uses deterministic local embeddings, source confidence and contradiction supersession; superseded facts stay inactive. Six-round compaction drift reached 100%. Link previews re-check DNS and reject private addresses. Secret scanning adds high-entropy detection. Conductor 13/13, memory logic 11/11, policy 24/24, installed E2E 32/32.",
+  "version": "0.5.4",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.4/Ruka-Setup-0.5.4.exe",
+  "sha256": "575BD2EB7C05B46863CEA7A279D94D97738343961AE022320CDCB2729C01EA9D",
+  "notes": "Ruka 0.5.4: crash reports, release CI, Blender repair and finer failure detail. Optional local crash reports with an upload URL and an Open crash reports action. Windows release-check workflow builds the installer, verifies installer and block map, installs silently and checks the installed version. Photo mesh now writes a Blender repair script plus .bat/.sh launchers for double merge, normal recalculation and hole filling. Eval reports add failureDetail (syntax, file scope, missing file, timeout, test failure). Reviewer subagents warn when they share the editor model. Installed E2E 32/32.",
   "previous": {
-    "version": "0.5.2",
-    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.2/Ruka-Setup-0.5.2.exe",
-    "sha256": "86D521EC89BDBA214068C5AB3AA4E9A14879C7B993876C8AB8D913E421F64BFE"
+    "version": "0.5.3",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.3/Ruka-Setup-0.5.3.exe",
+    "sha256": "CE0EB8C099CBA58FBE6591EBD0313A6E00571ADBAAF34B628821F5DE95EE04F9"
   },
   "delta": {
     "type": "nsis-blockmap",
-    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.3/Ruka-Setup-0.5.3.exe.blockmap"
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.4/Ruka-Setup-0.5.4.exe.blockmap"
   },
   "rollout": {
     "percent": 100,
     "paused": false
   },
-  "signedAt": 1794929897082,
-  "sig": "xZboA4ToQNfLHJS62OFhgGJmV4Jqhmml5yEn1tBiXwxApLAPirDVcZqXJ2j0944jGyLYyYbo4ySn6XrgR5wiDg=="
+  "signedAt": 1794933709561,
+  "sig": "gXAxczaocvpGwFlng30JBsBgLjZNEnFQz1mb4n5Thh7zovHTLZrlawl61eWgELgsN7T4ptVFJ+G89tYCFrolBg=="
 }
