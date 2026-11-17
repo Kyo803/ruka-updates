@@ -1,0 +1,67 @@
+{
+  "_type": "root",
+  "version": 1,
+  "expires": "2027-11-17T17:04:47.320Z",
+  "keys": {
+    "d9c4afe1b5a75743c5cd6e67e600aaa5357198385190d9d8d25b5da604659e8e": {
+      "keytype": "ed25519",
+      "scheme": "ed25519",
+      "keyval": {
+        "public": "MCowBQYDK2VwAyEA5qvbJ7Vrub5HRph5ouOuL6klPKLZp32NmdSW6d77IRk="
+      }
+    },
+    "3c01506064a1f7feb158ba3e7fb9b7c13e34f1e5acd9abe320ebe5ee446e6183": {
+      "keytype": "ed25519",
+      "scheme": "ed25519",
+      "keyval": {
+        "public": "MCowBQYDK2VwAyEAZqdNffaz+Kq6Fz5BgNPTqIqNuEfPCZeMyGJCqhTYqY8="
+      }
+    },
+    "90ec9296dbcfc65629b79a788d1d6eb578a39f9d71059adc99dfbdee3d38cb11": {
+      "keytype": "ed25519",
+      "scheme": "ed25519",
+      "keyval": {
+        "public": "MCowBQYDK2VwAyEAbcUAsfmC8nNdrdkejgmMF/09Pg+9jDJ09gxu4uFbZI4="
+      }
+    },
+    "18e20a4cce51d0786039228e7f2e04410e65512102ba8053ca3764d7c8afcad5": {
+      "keytype": "ed25519",
+      "scheme": "ed25519",
+      "keyval": {
+        "public": "MCowBQYDK2VwAyEA3xOTBAar9XjmvMrVWHFIS2I1CG/+auswP45cvDsA7iU="
+      }
+    }
+  },
+  "roles": {
+    "root": {
+      "keyids": [
+        "d9c4afe1b5a75743c5cd6e67e600aaa5357198385190d9d8d25b5da604659e8e"
+      ],
+      "threshold": 1
+    },
+    "targets": {
+      "keyids": [
+        "3c01506064a1f7feb158ba3e7fb9b7c13e34f1e5acd9abe320ebe5ee446e6183"
+      ],
+      "threshold": 1
+    },
+    "snapshot": {
+      "keyids": [
+        "90ec9296dbcfc65629b79a788d1d6eb578a39f9d71059adc99dfbdee3d38cb11"
+      ],
+      "threshold": 1
+    },
+    "timestamp": {
+      "keyids": [
+        "18e20a4cce51d0786039228e7f2e04410e65512102ba8053ca3764d7c8afcad5"
+      ],
+      "threshold": 1
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "d9c4afe1b5a75743c5cd6e67e600aaa5357198385190d9d8d25b5da604659e8e",
+      "sig": "ilK4xJ5IsH9B9GDkJRxoyZKjCz+WZAq9Zd5WEf0ZMFW6LI05Uc8Mmdzos1zKfwhoQyuVSAhiQzqjWgYGY2J5Cw=="
+    }
+  ]
+}

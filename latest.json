@@ -1,21 +1,21 @@
 {
-  "version": "0.5.4",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.4/Ruka-Setup-0.5.4.exe",
-  "sha256": "575BD2EB7C05B46863CEA7A279D94D97738343961AE022320CDCB2729C01EA9D",
-  "notes": "Ruka 0.5.4: crash reports, release CI, Blender repair and finer failure detail. Optional local crash reports with an upload URL and an Open crash reports action. Windows release-check workflow builds the installer, verifies installer and block map, installs silently and checks the installed version. Photo mesh now writes a Blender repair script plus .bat/.sh launchers for double merge, normal recalculation and hole filling. Eval reports add failureDetail (syntax, file scope, missing file, timeout, test failure). Reviewer subagents warn when they share the editor model. Installed E2E 32/32.",
+  "version": "0.5.5",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.5/Ruka-Setup-0.5.5.exe",
+  "sha256": "E02274BB4C6AEA10730E8B053D138E21F5390FD752664294528D34699C918150",
+  "notes": "Ruka 0.5.5: TUF-style update metadata, differential updates, signed kill switch, local FCC detection, multi-file mutation testing and replay fuzzy matching. Update metadata is verified through root -> timestamp -> snapshot -> targets -> latest.json with a pinned root key and expiry checks. The updater reuses unchanged blocks from a cached previous installer; rebuilding 0.5.4 from 0.5.3 downloaded 6.1 MB instead of 176.8 MB (96.6% reused) and matched the published SHA-256. Settings shows a blocked version from rollout.killed. Models can detect a local FCC proxy, show its version and latency, and fill the base URL and first model. Mutation checks run up to three mutants across changed files. Replay tolerates near-identical prompts, model tags and tool arguments with a warning and stops on divergence.",
   "previous": {
-    "version": "0.5.3",
-    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.3/Ruka-Setup-0.5.3.exe",
-    "sha256": "CE0EB8C099CBA58FBE6591EBD0313A6E00571ADBAAF34B628821F5DE95EE04F9"
+    "version": "0.5.4",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.4/Ruka-Setup-0.5.4.exe",
+    "sha256": "575BD2EB7C05B46863CEA7A279D94D97738343961AE022320CDCB2729C01EA9D"
   },
   "delta": {
     "type": "nsis-blockmap",
-    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.4/Ruka-Setup-0.5.4.exe.blockmap"
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.5/Ruka-Setup-0.5.5.exe.blockmap"
   },
   "rollout": {
     "percent": 100,
     "paused": false
   },
-  "signedAt": 1794933709561,
-  "sig": "gXAxczaocvpGwFlng30JBsBgLjZNEnFQz1mb4n5Thh7zovHTLZrlawl61eWgELgsN7T4ptVFJ+G89tYCFrolBg=="
+  "signedAt": 1794935087245,
+  "sig": "mD5JuDHvG8BJpH6tm2YNQsXeBd/zcpl/+kwnLtOhhIN119a3whFh1MBkA546js72bMEOpvR9NiArwhCqAqazAw=="
 }

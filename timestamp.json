@@ -1,0 +1,20 @@
+{
+  "_type": "timestamp",
+  "version": 5,
+  "expires": "2026-11-24T17:04:47.315Z",
+  "meta": {
+    "snapshot.json": {
+      "version": 5,
+      "length": 502,
+      "hashes": {
+        "sha256": "58c9792afa08c2e95fbc2d7918b31fc0d5fde2a16fa4e3191092be2ae9003d4f"
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "18e20a4cce51d0786039228e7f2e04410e65512102ba8053ca3764d7c8afcad5",
+      "sig": "8VXO+pfeQMUdvHemMrGsAxS+GeSkRtLkhApq67ZFJ1Rk9oI/VMgF1vH20vEOP1X5p5ahe/0mSdktdKPuigS9Bg=="
+    }
+  ]
+}

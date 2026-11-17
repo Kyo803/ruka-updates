@@ -1,0 +1,19 @@
+{
+  "_type": "targets",
+  "version": 5,
+  "expires": "2027-02-15T17:04:47.307Z",
+  "targets": {
+    "latest.json": {
+      "length": 1603,
+      "hashes": {
+        "sha256": "6d71dab701a8d2398e292cbcc9a170c62216d0150aaee2b0dbe77cd8eb05c2dc"
+      }
+    }
+  },
+  "signatures": [
+    {
+      "keyid": "3c01506064a1f7feb158ba3e7fb9b7c13e34f1e5acd9abe320ebe5ee446e6183",
+      "sig": "jK3rQTl+rv2NMdJFtlheCjcHrNhgPMX1hUIfze0ZRaxzsB8CiNlUxp82wW6EI478vXhuKjYMI7c7DAOedtU/Dw=="
+    }
+  ]
+}
