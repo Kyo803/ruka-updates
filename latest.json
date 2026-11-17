@@ -1,21 +1,21 @@
 {
-  "version": "0.5.1",
-  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.1/Ruka-Setup-0.5.1.exe",
-  "sha256": "4C94295548802B0AB6B48C2AE4CAADD2D3E3E86C3B5EB4ACFABC553A935B07EA",
-  "notes": "Ruka 0.5.1: Quick Run shortcut changed from Ctrl+Alt+Space to Ctrl+Alt+PageUp. Existing installs migrate automatically, while a deliberately customised shortcut is preserved. Ctrl+Alt+PageUp opens the instant calculator, converter, time-zone, encoding, colour, JSON, translation and search overlay. 6/6 shortcut checks and 32/32 installed E2E checks pass.",
+  "version": "0.5.2",
+  "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.2/Ruka-Setup-0.5.2.exe",
+  "sha256": "86D521EC89BDBA214068C5AB3AA4E9A14879C7B993876C8AB8D913E421F64BFE",
+  "notes": "Ruka 0.5.2: Quick Run shortcut changed to Ctrl+Alt+Q after PageUp failed on the test keyboard. Existing Space or PageUp bindings migrate automatically; a customised shortcut is preserved. The command palette also lists Quick Run as a fallback. Installed check: Ctrl+Alt+Q opens the overlay, old bindings do not. 7/7 shortcut checks and 32/32 installed E2E checks pass.",
   "previous": {
-    "version": "0.5.0",
-    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.0/Ruka-Setup-0.5.0.exe",
-    "sha256": "185BD8A8C7ED2D814BDF66ADED789563A38CDF55A8BEB451A08168D9FE38D085"
+    "version": "0.5.1",
+    "url": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.1/Ruka-Setup-0.5.1.exe",
+    "sha256": "4C94295548802B0AB6B48C2AE4CAADD2D3E3E86C3B5EB4ACFABC553A935B07EA"
   },
   "delta": {
     "type": "nsis-blockmap",
-    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.1/Ruka-Setup-0.5.1.exe.blockmap"
+    "blockMapUrl": "https://github.com/Kyo803/ruka-updates/releases/download/v0.5.2/Ruka-Setup-0.5.2.exe.blockmap"
   },
   "rollout": {
     "percent": 100,
     "paused": false
   },
-  "signedAt": 1794836936899,
-  "sig": "eHxmbSkTaX44kCu0uW13CfxXzY5/ewUNHxsa27D30H6hlCG++zdLksX2xHK2y0L8D4N6QLACXd6a03nFMFRACw=="
+  "signedAt": 1794922816148,
+  "sig": "SKTqAriW/r/Ku4mZTxTsV2KJnYMJ3hY2Rv7KTSqnhju85xZ+wcQ5xzU0tkqSu3tdd1kJBmXfThH3gk3FCgE7CA=="
 }
