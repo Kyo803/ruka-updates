@@ -1,20 +1,20 @@
 {
   "_type": "snapshot",
-  "version": 5,
-  "expires": "2026-12-17T17:04:47.313Z",
+  "version": 6,
+  "expires": "2026-12-17T17:07:00.878Z",
   "meta": {
     "targets.json": {
-      "version": 5,
+      "version": 6,
       "length": 484,
       "hashes": {
-        "sha256": "fd6fb685b81e6d1d8722da2a48801a72ca4c6994517d582c2ff4bce91e7c6e6b"
+        "sha256": "825cce1b55ba7c404af36e7168d1f3edb466b0a9ddf97af8ac1c3a819fc1b012"
       }
     }
   },
   "signatures": [
     {
       "keyid": "90ec9296dbcfc65629b79a788d1d6eb578a39f9d71059adc99dfbdee3d38cb11",
-      "sig": "ZijqOU/axDaV4ALS9UcPFhij3ol/cCYhR7Mhl2e3OPaiJhZ5npFXOWahW7A6YCVCtUZYMt7oXgeC3Zn59ga+Aw=="
+      "sig": "H9nWNuTFrdDL/w1cgoQTt3RX1I92ls/Frx1R8ADiAVljRJhKfrG02zxIzr5S0Xzf6DLAplMRxI+MPxtckyCWDg=="
     }
   ]
 }

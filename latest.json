@@ -14,8 +14,10 @@
   },
   "rollout": {
     "percent": 100,
-    "paused": false
+    "paused": false,
+    "killed": [],
+    "killMessage": ""
   },
-  "signedAt": 1794935087245,
-  "sig": "mD5JuDHvG8BJpH6tm2YNQsXeBd/zcpl/+kwnLtOhhIN119a3whFh1MBkA546js72bMEOpvR9NiArwhCqAqazAw=="
+  "signedAt": 1794935220793,
+  "sig": "aEMSPM5mVKuYvdAi0rGvMqPSRIm9lH16GsMaFYOqdUlfWhqWDPo2P9ooyxaPeGSPP48A95mLklKJGg/HPfSVBQ=="
 }
